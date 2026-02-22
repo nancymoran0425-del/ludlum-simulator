@@ -996,6 +996,18 @@ export default function Ludlum2200Sim() {
       <div style={{ marginTop: 10, opacity: 0.7, fontSize: 12, color: "#f2f2f2" }}>
         Tip (HV CAL): set THR 652 / WIN 20, then step HV by 2 V and record COUNT (1 min) to find the best HV.
       </div>
+      <div
+  style={{
+    marginTop: 14,
+    fontSize: 12,
+    opacity: 0.9,
+    textAlign: "center",
+    color: "#B57EDC", // lavender purple
+    fontWeight: 600,
+  }}
+>
+  Made by Nancy
+</div>
     </div>
   );
 }
