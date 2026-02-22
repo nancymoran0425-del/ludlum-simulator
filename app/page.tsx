@@ -997,16 +997,15 @@ export default function Ludlum2200Sim() {
   style={{
     marginTop: 24,
     textAlign: "center",
-    fontSize: 20,
-    fontWeight: 700,
+    fontFamily: "var(--font-press-start), ui-monospace, monospace",
+    fontSize: 16,
     letterSpacing: "0.08em",
-    background: "linear-gradient(90deg, #C8A2E8, #B57EDC)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-    textShadow: "0 0 14px rgba(181,126,220,0.5)",
+    color: "#ad73d1",
+    textShadow: "0 0 10px rgba(173,115,209,0.45)",
+    userSelect: "none",
   }}
 >
-  ✨ Made by Nancy ✨
+  ⋆୨୧ Made by Nancy ୨୧⋆
 </div>
     </div>
   );
